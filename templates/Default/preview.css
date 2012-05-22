@@ -1,0 +1,266 @@
+/* Template created by CENTROARTS.com | Author: Rumin Sergey | URL: http://centroarts.com */
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input { margin: 0; padding: 0; }
+body { background: #fff; color: #1f282c; word-wrap: break-word; } 
+
+h1, h2, h3, h4, h5 { line-height: normal; }
+h1 { font-size: 1.25em; } h2 { font-size: 1.2em; } h3 { font-size: 1.15em; } h4 { font-size: 1.1em; } h5 { font-size: 1em; }
+
+a { color: #398dd8; text-decoration: none; }
+a:hover { text-decoration: underline; }
+a img  { border: 0 none; }
+
+input, textarea, select, button, body { font: 12px/16px Arial, Helvetica, sans-serif; }
+input, textarea, select, button, a { outline: none; }
+
+p { margin-bottom: 0.4em; }
+hr { border: 0 none; border-top: 1px solid #dbe8ed; height: 1px; }
+ul { margin: 0 0 18px 2em; list-style: disc outside; }
+ol { margin: 0 0 18px 2.1em; list-style: decimal; }
+
+.reset, .reset li { list-style: none; padding: 0; margin: 0; }
+
+.clr { clear: both; }
+.thide, .htmenu span { overflow: hidden; display: block; height: 0; line-height: normal; }
+table.userstop, table.pm, table.tableform, table.calendar { border-collapse: collapse; border-spacing: 0; }
+.lcol, .rcol, form { display: inline; }
+.lcol { float: left; } .rcol { float: right; }
+.small { font-size: 0.9em; }
+
+.headlinks ul li a, .menubar ul a, .lmenu li a, #topmenu a, #popular ul li a, .navigation a, .argmore a, .addcombtn, .reply a { text-decoration: none !important; }
+.btn_reglog, .radial, .fbutton, .headlinks ul a, #loading-layer, .navigation a, #dropmenudiv { -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; }
+
+fieldset { padding: 15px; border: 1px solid #dadada !important; background-color: #fff; width: 680px; margin: 0 auto; text-align: left; }
+
+/*---Краткая содержимое---*/
+.dpad { margin: 0 15px; }
+.base { margin-bottom: 30px; }
+.base .btl { color: #398dd8; margin-bottom: 0.6em; }
+
+.bhinfo { height: 21px; padding-bottom: 10px; border-bottom: 1px solid #dbe8ed; margin-bottom: 10px; }
+	.baseinfo { padding: 0 8px 0 18px; font: 0.9em/21px sans-serif; color: #6c838e; float: left; height: 21px; background: #f1f5f7 url("../../templates/Default/images/baseinfo.png") no-repeat 5px 50%; }
+	.bhinfo, .bhinfo ul, .bhinfo ul li { height: 19px; }
+		.bhinfo ul, .bhinfo ul li { float: left; }
+
+.storenumber, .basenavi, .maincont, .berrors, .fullstory, .basecont { margin-bottom: 15px; }
+
+.mlink { font-size: 0.9em; overflow: hidden; background: #f0f5f8 url("../../templates/Default/images/mlink.png") repeat-x; padding: 0 15px; height: 40px; border: 1px solid #cbdfe8; border-width: 1px 0; }
+	.argcat { padding-left: 10px; background: url("../../templates/Default/images/argcat.png") no-repeat 0 58%; color: #6c838e; margin-top: 12px; }
+
+	.mlarrow { float: right; width: 50px; height: 40px; background: url("../../templates/Default/images/mlinkarrow.png") no-repeat; }
+
+	/*---Подробнее---*/
+	.argmore a, .argmore a b { height: 28px; background: #2886d4 url("../../templates/Default/images/argmore.png") no-repeat; }
+	.argmore a { float: right; margin: 6px 0 0 7px; line-height: 28px; color: #fff; }
+		.argmore a b { cursor: pointer; float: left; padding: 0 35px 0 11px; background-color: transparent; background-position: 100% -28px; }
+		
+		.argmore a:hover { background-position: 0 -56px; }
+			.argmore a:hover b { background-position: 100% -84px; }
+
+	.argback a, .argback a b { height: 23px; background: url("../../templates/Default/images/argback.png") no-repeat; }
+		.argback a { margin: 9px 0 0 5px; float: right; line-height: 22px; background-position: 100% -46px; }
+		.argback a b { float: left; cursor: pointer; padding: 0 15px 0 28px; background-position: 0 0; }
+			.argback a:hover b { background-position: 0 -23px; }
+
+	.argviews span, .argcoms span, .argviews span b, .argcoms span b { background: url("../../templates/Default/images/args.png") no-repeat 100% -23px; height: 23px; }
+	.argviews span, .argcoms span { line-height: 23px; float: right; margin: 9px 0 0 5px; }
+		.argviews span { background-position: 0 -46px; }
+		.argcoms span { background-position: 0 0; }
+		.argviews span b, .argcoms span b { padding: 0 7px 0 25px; font-weight: normal; float: left; }
+		
+/*---Заголовок страниц---*/
+.pheading { overflow: hidden; border-bottom: 1px solid #dadada; padding: 0 15px 13px 15px; background: url("../../templates/Default/images/speedbar.png") repeat-x 0 100%; }
+	.pheading h2 { color: #468edb; font-size: 1.7em; font-weight: normal; }
+
+.heading { color: #96c; margin-bottom: 0.3em; }
+.basecont { padding-top: 14px; border-top: 1px solid #e8e8e8; background: url("../../templates/Default/images/basecont.png") repeat-x; }
+
+/* ==================== Цитата и скрытый текст */
+.scriptcode, .title_quote,
+.quote, .title_spoiler, .text_spoiler { padding: 5px; background: #f9fafa; border: 1px solid #dce7e7; }
+.title_quote, .title_spoiler { background: #f9fafa; }
+
+.title_quote { border-bottom: 0; font-weight: bold; }
+.scriptcode { color: #004e8d; text-align: left; font-family: "Courier New"; }
+.title_spoiler { font-weight: bold; }
+.text_spoiler { border-top: 0; text-align: justify; }
+
+.hide { background-color: #e8f3fa; padding: 5px; color: #3a78a5; margin: 0 0 1em; 0; }
+.hide a { text-decoration: underline; } .hide a:hover { text-decoration: none }
+.inhide { border: 1px solid #d1e3ef; padding: 5px; background-color: #fff; margin-bottom: 5px; }
+
+/* ==================== показ оригинальной картинки загруженной на сайт из уменьшенной копии */
+.highslide-active-anchor img { visibility: hidden; }
+.highslide-dimming { background-color: black; }
+.highslide-image-blur {}
+.highslide-html { background-color: white; }
+.highslide-html-content { display: none; }
+.highslide-loading {
+    display: block;
+	color: #fff;
+	font-size: 9px;
+	font-weight: bold;
+    text-decoration: none;
+	padding: 3px;
+	border: 1px solid #fff;
+    background-color: black;
+}
+a.highslide-full-expand {
+	background: url("../../templates/Default/dleimages/fullexpand.gif") no-repeat;
+	display: block;
+	margin: 0 10px 10px 0;
+	width: 34px; height: 34px;
+}
+.highslide-footer { height: 11px; }
+.highslide-footer .highslide-resize {
+	float: right;
+	height: 12px; width: 11px;
+	background: url("../../templates/Default/dleimages/resize.gif");
+}
+.highslide-resize { cursor: nw-resize; }
+.highslide-display-block { display: block;}
+.highslide-display-none { display: none;}
+.highslide-caption { display: none; padding: 5px; background: white; }
+.highslide-controls {
+    width: 195px;
+    height: 40px;
+    background: url(../../engine/classes/highslide/graphics/controlbar-black-border.gif) 0 -90px no-repeat;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.highslide-controls ul {
+	position: relative;
+	left: 15px;
+    height: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: url(../../engine/classes/highslide/graphics/controlbar-black-border.gif) right -90px no-repeat;
+}
+.highslide-controls li { float: left; padding: 5px 0; }
+.highslide-controls a {
+    background: url(../../engine/classes/highslide/graphics/controlbar-black-border.gif);
+    display: block;
+    float: left;
+    height: 30px;
+    width: 30px;
+    outline: none;
+}
+.highslide-controls a.disabled { cursor: default; }
+.highslide-controls a span { display: none; }
+ 
+/* The CSS sprites for the controlbar */
+.highslide-controls .highslide-previous a { background-position: 0 0; }
+.highslide-controls .highslide-previous a:hover { background-position: 0 -30px; }
+.highslide-controls .highslide-previous a.disabled { background-position: 0 -60px !important; }
+.highslide-controls .highslide-play a { background-position: -30px 0; }
+.highslide-controls .highslide-play a:hover { background-position: -30px -30px; }
+.highslide-controls .highslide-play a.disabled { background-position: -30px -60px !important; }
+.highslide-controls .highslide-pause a { background-position: -60px 0; }
+.highslide-controls .highslide-pause a:hover { background-position: -60px -30px; }
+.highslide-controls .highslide-next a { background-position: -90px 0; }
+.highslide-controls .highslide-next a:hover { background-position: -90px -30px; }
+.highslide-controls .highslide-next a.disabled { background-position: -90px -60px !important; }
+.highslide-controls .highslide-move a { background-position: -120px 0; }
+.highslide-controls .highslide-move a:hover { background-position: -120px -30px; }
+.highslide-controls .highslide-full-expand a { background-position: -150px 0; }
+.highslide-controls .highslide-full-expand a:hover { background-position: -150px -30px; }
+.highslide-controls .highslide-full-expand a.disabled { background-position: -150px -60px !important; }
+.highslide-controls .highslide-close a { background-position: -180px 0; }
+.highslide-controls .highslide-close a:hover { background-position: -180px -30px; }
+
+/*---подсветка текста в теге [code]---*/
+
+pre code {
+  display: block; padding: 0.5em;
+  background: #f9fafa; 
+  border: 1px solid #dce7e7;
+  overflow:auto;
+  white-space: pre;
+}
+
+pre .comment,
+pre .template_comment,
+pre .diff .header,
+pre .doctype,
+pre .lisp .string,
+pre .javadoc {
+  color: #93a1a1;
+  font-style: italic;
+}
+
+pre .keyword,
+pre .css .rule .keyword,
+pre .winutils,
+pre .javascript .title,
+pre .method,
+pre .addition,
+pre .css .tag,
+pre .lisp .title {
+  color: #859900;
+}
+
+pre .number,
+pre .command,
+pre .string,
+pre .tag .value,
+pre .phpdoc,
+pre .tex .formula,
+pre .regexp,
+pre .hexcolor {
+  color: #2aa198;
+}
+
+pre .title,
+pre .localvars,
+pre .function .title,
+pre .chunk,
+pre .decorator,
+pre .builtin,
+pre .built_in,
+pre .lisp .title,
+pre .identifier,
+pre .title .keymethods,
+pre .id {
+  color: #268bd2;
+}
+
+pre .tag .title,
+pre .rules .property,
+pre .django .tag .keyword {
+  font-weight: bold;
+}
+
+pre .attribute,
+pre .variable,
+pre .instancevar,
+pre .lisp .body,
+pre .smalltalk .number,
+pre .constant,
+pre .class .title,
+pre .parent,
+pre .haskell .label {
+  color: #b58900;
+}
+
+pre .preprocessor,
+pre .pi,
+pre .shebang,
+pre .symbol,
+pre .diff .change,
+pre .special,
+pre .keymethods,
+pre .attr_selector,
+pre .important,
+pre .subst,
+pre .cdata {
+  color: #cb4b16;
+}
+
+pre .deletion {
+  color: #dc322f;
+}
+
+pre .tex .formula {
+  background: #eee8d5;
+}

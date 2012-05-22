@@ -1,0 +1,139 @@
+body {
+	font-size: 62.5%;
+	font-family: Verdana, Arial, Sans-Serif;
+	background-color: #fff;
+	color: #000;
+	padding:0px;
+	margin:0px;
+}
+form{
+	padding:0px;
+	margin:0px;
+}
+
+a{
+	color:#000;
+}
+p img{
+	padding: 0px;
+	max-width: 100%;
+}
+div.post{
+	padding:5px;
+	margin:0px;
+}
+
+div.title h2{
+	font-size: 1.5em;
+	padding:0px;
+	margin:0px;
+}
+
+#header {
+	background-color: #73a0c5;
+	padding:5px;
+	margin:0px;
+	border-bottom: 1px solid #3C6A91;
+}
+#header h1{
+	font-size: 2em;
+	padding:0px;
+	margin:0px;
+}
+#header div.description{
+	font-size: 1.5em;
+}
+
+h1,h2,h3{
+	font-size: 1.25em;
+	padding:0px;
+	margin:0px;
+}
+h4,h5,h6{
+	font-size: 1em;
+	padding:0px;
+	margin:0px;
+	margin-bottom:2px;
+}
+
+.pagetitle{
+	margin-bottom:5px;	
+	margin-top:5px;
+}
+
+.title {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-bottom: 1px solid #2d3642;
+    border-top: 1px solid #6d84a2;
+    padding: 10px;
+    height: 45px;
+    background: url(header.png) #6d84a2 repeat-x;
+}
+
+.news{
+	font-family: Helvetica;
+	font-size: 1.2em;
+	text-align:justify;
+}
+
+.panel {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 5px;
+    background: #c8c8c8 url(panel.png);
+}
+
+#footer {
+	background-color: #73a0c5;
+	padding:3px;
+	margin:0px;
+	border-top: 1px solid #3C6A91;
+	text-align:center;
+}
+#footer p{
+	padding:0px;
+	margin:0px;
+}
+.navigation {
+	color:#666; 
+	border:0px;
+}
+
+.navigation a:link,
+.navigation a:visited,
+.navigation a:hover,
+.navigation a:active {
+	text-decoration:none;
+	color: #636363;
+	background:#F9F9F9;
+	border:1px solid #E6E6E6;
+	padding:3px 6px;
+	line-height: 2.0;
+	font-size:11px
+}
+
+.navigation a:hover {
+	background:#799AE3;
+	color:#FFFFFF;
+	border-color:#E6E6E6;
+}
+
+.navigation span {
+	text-decoration:none;
+	background:#fff;
+	padding:3px 6px;
+	border:1px solid #E6E6E6;
+	color:#ccc;
+	line-height: 2.0;
+	font-size:11px;
+}
+
+input {
+	border:1px solid #9E9E9E;
+	color: #000000;
+	font-size: 11px;
+	font-family: Verdana;
+	background: #FFF; 
+}

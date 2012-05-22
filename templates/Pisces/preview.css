@@ -1,0 +1,268 @@
+/* Template created by CENTROARTS.com | Author: Rumin Sergey | URL: http://centroarts.com */
+
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input { margin: 0; padding: 0; }
+body { background: #61a117 url("../../templates/Pisces/images/pagebg.png") repeat-x 50% 0; color: #2c2c2c; word-wrap: break-word; }
+
+h1, h2, h3, h4, h5 { font-weight: normal; line-height: normal; }
+h1 { font-size: 1.5em; } h2 { font-size: 1.4em; } h3 { font-size: 1.3em; } h4 { font-size: 1.2em; } h5 { font-size: 1.1em; }
+
+a { color: #44a1c7; text-decoration: none; }
+a:hover { text-decoration: underline; }
+a img  { border: 0 none; }
+
+input, textarea, select, button, body { font: normal 13px/17px Tahoma, "Trebuchet MS", Helvetica, sans-serif; }
+input, textarea, select, button, a { outline: none; }
+
+p { margin-bottom: 0.4em; }
+hr { border: 0 none; border-top: 1px solid #dbe8ed; height: 1px; }
+ul { margin: 0 0 18px 2em; list-style: disc outside; }
+ol { margin: 0 0 18px 2.1em; list-style: decimal; }
+
+.reset, .reset li { list-style: none; padding: 0; margin: 0; }
+
+.clr { clear: both; }
+.thide, .htmenu span { overflow: hidden; display: block; height: 0; line-height: normal; }
+.lcol, .rcol, form { display: inline; }
+.lcol { float: left; } .rcol { float: right; }
+.small { font-size: 0.85em; }
+
+fieldset { padding-top: 15px; display: block; border: 15px solid #f1f0ed !important; background-color: #fff; width: 680px; margin: 20px auto; text-align: left; }
+legend { display: none; }
+
+/*---Краткая содержимое---*/
+.dpad { margin: 0 15px; }
+.base { overflow: hidden; border-bottom: 1px solid #ccc; background: url("../../templates/Pisces/images/basefoot.png") repeat-x 0 100%; }
+	.base .btl { margin-bottom: 2px; }
+		.base .btl a, .base .btl { color: #68a719; }
+
+	.binfo, .argcat { color: #888785; padding-bottom: 8px; }
+	.argcat { padding-left: 10px; background: url("../../templates/Pisces/images/garrow.png") no-repeat 1px 5px; }
+
+	.base .maincont { padding-top: 14px; border-top: 1px solid #cfcfcf; background: url("../../templates/Pisces/images/maincont.png") repeat-x; }
+	.argcoms b { text-align: center; margin: 0 0 6px 10px; color: #fff; text-shadow: 0 1px 0 #5f9d06; font: bold 2em/50px Arial, Sans-serif; float: right; width: 50px; height: 60px; background: url("../../templates/Pisces/images/argcoms.png") no-repeat 100% 0; }
+		.argcoms a { text-decoration: none; color: #fff; }
+
+	.editdate { color: #888785; border-top: 1px solid #f1f0ed; padding-top: 10px; margin-bottom: 12px; }
+	.storenumber, .maincont, .berrors, .basecont, .basenavi { margin-bottom: 15px; }
+		
+	/*---Подробнее---*/
+	.mlink { margin-bottom: 7px; height: 35px; background: #f1f0ed url("../../templates/Pisces/images/mlink.png") no-repeat; }
+		.mlink .mlink { margin: 0; padding: 4px 3px 0 7px; height: 31px; background: url("../../templates/Pisces/images/mlink.png") no-repeat 100% -35px; }
+
+	.argmore a, .argmore a b, .argpoll a, .argpoll a b { float: left; height: 28px; background: url("../../templates/Pisces/images/argmore.png") no-repeat; }
+	.argpoll a, .argpoll a b { background: url("../../templates/Pisces/images/argpoll.png") no-repeat; }
+	.argmore a, .argpoll a { margin-left: 5px; float: right; text-shadow: 0 1px 0 #5f9d06; line-height: 24px; color: #fff; text-decoration: none; background-color: #76b41a; }
+		.argmore a b, .argpoll a b  { cursor: pointer; padding: 0 14px; background-position: 100% -28px; }
+
+		.argpoll a { background-color: #fff; color: #61a117; text-shadow: 0 1px 0 #fff; }
+		.argpoll a b { padding: 0 38px 0 14px; }
+
+		.argmore a:hover, .argpoll a:hover { background-position: 0 -56px; }
+			.argmore a:hover b, .argpoll a:hover b { background-position: 100% -84px; }
+	
+	.isicons { display: inline; }
+		.isicons li { float: right; width: 19px; height: 19px; margin-top: 4px; }
+		.isicons li img { display: block; } 
+	
+	/*---Tags---*/
+	.btags { background: #79b61b url("../../templates/Pisces/images/btags.png") no-repeat; height: 33px; }
+		.btags .btags { color: #f2ffde; line-height: 32px; padding: 0 10px; background-color: transparent; background-position: 100% -33px; }
+		.btags a { color: #fff; }
+
+	.fullstory { border: 0 none; }
+		.mlinktags { background-position: 0 -70px; }
+		.mlinktags .mlink { background-position: 100% -105px; }
+
+/*---Заголовок страниц---*/
+.heading { font-size: 1.5em; line-height: normal; color: #71ae1b; margin-bottom: 10px; }
+
+/*---Цитата и скрытый текст---*/
+.scriptcode, .title_quote,
+.quote, .title_spoiler, .text_spoiler { font-size: 0.85em; line-height: 1.3em; padding: 10px; background: #f1f0ed; border-left: 5px solid #82bb2a; }
+.title_quote, .title_spoiler { background: #f1f0ed; }
+.title_spoiler, .text_spoiler { border-color: #4a4949; }
+
+.title_quote { border-bottom: 0; font-weight: bold; }
+.scriptcode { color: #076fb1; text-align: left; font-family: "Courier New"; }
+.title_spoiler { font-weight: bold; }
+.text_spoiler { border-top: 1px solid #fff; text-align: justify; }
+
+.hide { background-color: #e8f3fa; padding: 5px; color: #3a78a5; margin: 0 0 1em; 0; }
+.hide a { text-decoration: underline; } .hide a:hover { text-decoration: none }
+.inhide { border: 1px solid #d1e3ef; padding: 5px; background-color: #fff; margin-bottom: 5px; }
+
+/*---показ оригинальной картинки загруженной на сайт из уменьшенной копии---*/
+.highslide-active-anchor img { visibility: hidden; }
+.highslide-dimming { background-color: black; }
+.highslide-image-blur {}
+.highslide-html { background-color: white; }
+.highslide-html-content { display: none; }
+.highslide-loading {
+    display: block;
+	color: #fff;
+	font-size: 9px;
+	font-weight: bold;
+    text-decoration: none;
+	padding: 3px;
+	border: 1px solid #fff;
+    background-color: black;
+}
+a.highslide-full-expand {
+	background: url("../../templates/Pisces/dleimages/fullexpand.gif") no-repeat;
+	display: block;
+	margin: 0 10px 10px 0;
+	width: 34px; height: 34px;
+}
+.highslide-footer { height: 11px; }
+.highslide-footer .highslide-resize {
+	float: right;
+	height: 12px; width: 11px;
+	background: url("../../templates/Pisces/dleimages/resize.gif");
+}
+.highslide-resize { cursor: nw-resize; }
+.highslide-display-block { display: block;}
+.highslide-display-none { display: none;}
+.highslide-caption { display: none; padding: 5px; background: white; }
+.highslide-controls {
+    width: 195px;
+    height: 40px;
+    background: url(../../engine/classes/highslide/graphics/controlbar-black-border.gif) 0 -90px no-repeat;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.highslide-controls ul {
+	position: relative;
+	left: 15px;
+    height: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: url(../../engine/classes/highslide/graphics/controlbar-black-border.gif) right -90px no-repeat;
+}
+.highslide-controls li { float: left; padding: 5px 0; }
+.highslide-controls a {
+    background: url(../../engine/classes/highslide/graphics/controlbar-black-border.gif);
+    display: block;
+    float: left;
+    height: 30px;
+    width: 30px;
+    outline: none;
+}
+.highslide-controls a.disabled { cursor: default; }
+.highslide-controls a span { display: none; }
+ 
+/* The CSS sprites for the controlbar */
+.highslide-controls .highslide-previous a { background-position: 0 0; }
+.highslide-controls .highslide-previous a:hover { background-position: 0 -30px; }
+.highslide-controls .highslide-previous a.disabled { background-position: 0 -60px !important; }
+.highslide-controls .highslide-play a { background-position: -30px 0; }
+.highslide-controls .highslide-play a:hover { background-position: -30px -30px; }
+.highslide-controls .highslide-play a.disabled { background-position: -30px -60px !important; }
+.highslide-controls .highslide-pause a { background-position: -60px 0; }
+.highslide-controls .highslide-pause a:hover { background-position: -60px -30px; }
+.highslide-controls .highslide-next a { background-position: -90px 0; }
+.highslide-controls .highslide-next a:hover { background-position: -90px -30px; }
+.highslide-controls .highslide-next a.disabled { background-position: -90px -60px !important; }
+.highslide-controls .highslide-move a { background-position: -120px 0; }
+.highslide-controls .highslide-move a:hover { background-position: -120px -30px; }
+.highslide-controls .highslide-full-expand a { background-position: -150px 0; }
+.highslide-controls .highslide-full-expand a:hover { background-position: -150px -30px; }
+.highslide-controls .highslide-full-expand a.disabled { background-position: -150px -60px !important; }
+.highslide-controls .highslide-close a { background-position: -180px 0; }
+.highslide-controls .highslide-close a:hover { background-position: -180px -30px; }
+
+/*---подсветка текста в теге [code]---*/
+pre code {
+  display: block; padding: 0.5em;
+  background: #f1f0ed; 
+  border-left: 5px solid #82bb2a;
+  overflow:auto;
+  white-space: pre;
+}
+
+pre .comment,
+pre .template_comment,
+pre .diff .header,
+pre .doctype,
+pre .lisp .string,
+pre .javadoc {
+  color: #93a1a1;
+  font-style: italic;
+}
+
+pre .keyword,
+pre .css .rule .keyword,
+pre .winutils,
+pre .javascript .title,
+pre .method,
+pre .addition,
+pre .css .tag,
+pre .lisp .title {
+  color: #859900;
+}
+
+pre .number,
+pre .command,
+pre .string,
+pre .tag .value,
+pre .phpdoc,
+pre .tex .formula,
+pre .regexp,
+pre .hexcolor {
+  color: #2aa198;
+}
+
+pre .title,
+pre .localvars,
+pre .function .title,
+pre .chunk,
+pre .decorator,
+pre .builtin,
+pre .built_in,
+pre .lisp .title,
+pre .identifier,
+pre .title .keymethods,
+pre .id {
+  color: #268bd2;
+}
+
+pre .tag .title,
+pre .rules .property,
+pre .django .tag .keyword {
+  font-weight: bold;
+}
+
+pre .attribute,
+pre .variable,
+pre .instancevar,
+pre .lisp .body,
+pre .smalltalk .number,
+pre .constant,
+pre .class .title,
+pre .parent,
+pre .haskell .label {
+  color: #b58900;
+}
+
+pre .preprocessor,
+pre .pi,
+pre .shebang,
+pre .symbol,
+pre .diff .change,
+pre .special,
+pre .keymethods,
+pre .attr_selector,
+pre .important,
+pre .subst,
+pre .cdata {
+  color: #cb4b16;
+}
+
+pre .deletion {
+  color: #dc322f;
+}
+
+pre .tex .formula {
+  background: #eee8d5;
+}

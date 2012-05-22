@@ -1,0 +1,1 @@
+<div class="navigation" align="center" style="margin-bottom:10px; margin-top:10px;">[prev-link]Назад[/prev-link] {pages} [next-link]Далее[/next-link]</div>
